@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website creation</title>
+    <link rel="icon" href="./website creation_files/OIP.jpg">
+    <link rel="stylesheet" href="./website creation_files/style2.css">
+</head>
+<body>
+    <img src="./website creation_files/a.jpg" style="float: right; height: 100px; width: 100px;;" alt="">
+    <img src="./website creation_files/OIP.jpg" style="float: left; height: 100px; width: 100px;;">
+    <br>
+    <table>
+        <caption>student data</caption>
+        <tbody><tr>
+            <th>name</th>
+            <th>gender</th>
+            <th>address</th>
+        </tr>
+        <tr>
+            <td>sk</td>
+            <td>male</td>
+            <td>nagpur</td>
+        </tr>
+        <tr>
+            <td>sk</td>
+            <td>male</td>
+            <td>nagpur</td>
+        </tr>
+       
+    </tbody></table>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: #D6EEEE">
+                <col span="3" style="background-color: pink">
+              </colgroup>
+            <tbody><tr>
+                <th>name</th>
+                <th>gender</th>
+                <th>address</th>
+            </tr>
+            <tr>
+                <td>sk</td>
+                <td>male</td>
+                <td>nagpur</td>
+            </tr>
+            <tr>
+                <td>sk</td>
+                <td>male</td>
+                <td>nagpur</td>
+            </tr>
+
+            <tr>
+                <td>sk</td>
+                <td>male</td>
+                <td>nagpur</td>
+            </tr>
+           
+            <tr>
+                <td>sk</td>
+                <td>male</td>
+                <td>nagpur</td>
+            </tr>
+           
+            <tr>
+                <td>sk</td>
+                <td>male</td>
+                <td>nagpur</td>
+            </tr>
+           
+           
+        </tbody></table>
+    </div>
+
+
+<br>
+<br><br><br><br>
+<dl>
+    <dt>milk</dt>
+    <dd>protein</dd>
+    <dt>cofee</dt>
+    <dd>caffeine</dd>
+</dl>
+
+<ul style="list-style-type:square;">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+
+<ol type="i" start="10">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ol>
+
+<div style="justify-content: space-around; margin: auto;">
+    <div style="background-color:rgb(207, 16, 16);color:white;padding:20px; width: 20%;display: inline-block;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </div> 
+      <div style="background-color:rgb(98, 15, 206);color:white;padding:20px;width: 20%;display: inline-block;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </div> 
+      <div style="background-color:rgb(9, 161, 77);color:white;padding:20px;width: 20%;display: inline-block;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </div> 
+</div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

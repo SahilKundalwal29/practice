@@ -1,0 +1,29 @@
+ div{
+    border: 2px solid black;
+    font-size: 40px;
+    background-color: rgb(95, 160, 104);
+    padding: 20px;
+    margin-left: 40px;
+}
+
+button:hover{
+    color: blueviolet;
+
+}
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    color:orangered;
+}
+
+a:visited{
+    color: pink;
+}
+
+h1:hover{
+    background-color: brown;
+}
+

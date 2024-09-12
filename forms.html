@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" autocomplete="on">
+      <label for="fname">enter name</label><br />
+      <input type="text" value="john" /><br />
+      <label for="lname">enter surname</label><br />
+      <input type="text" /> <br />
+
+      <h2>radio buttons</h2>
+      <label for="choice">address</label>
+      <input type="radio" /> <br />
+      <label for="choice">address</label>
+      <input type="radio" /> <br />
+      <label for="choice">address</label>
+      <input type="checkbox" /><br />
+
+      <input type="submit" value="submit" />
+    </form>
+
+    <h2>Radio Buttons</h2>
+
+    <p>Choose your favorite Web language:</p>
+
+    <form autocomplete="on">
+       
+      <div>
+        <input type="radio" value="HTML" />
+          <label for="html">HTML</label><br />
+          <input type="radio"   value="CSS" />  
+        <label for="css">CSS</label><br />
+         
+        <input
+          type="radio"
+         
+       
+          value="JavaScript"
+        />
+          <label for="javascript">JavaScript</label>
+      </div>
+    </form>
+
+    <br /><br /><br />
+    <form action="">
+      <label for="carname">choose car names</label>
+      <select name="car" id="carN" size="3">
+        <option value="">audi</option>
+        <option value="">mercedes</option>
+        <option value="">buggati</option>
+        <option value="">audi</option>
+        <br /></select
+      ><br />
+      <br />
+      <label for="">enter comment</label><br /><br />
+      <textarea name="message" rows="10" cols="20"></textarea>
+      <button onclick="alert('successfully submited')">submit</button>
+      <!-- <textarea name="" id=""></textarea> -->
+    </form>
+    <br /><br /><br /><br />
+    <div>
+      <form action="">
+        <input list="browsers" name="browser" />
+        <datalist id="browsers">
+          <option value="Edge"></option>
+          <option value="Firefox"></option>
+          <option value="Chrome"></option>
+          <option value="Opera"></option>
+          <option value="Safari"></option>
+        </datalist>
+
+        <input type="submit" />
+        <div>
+          <input type="date" />
+          <input type="reset" />
+          <input type="color" />
+        </div>
+
+        <div>
+          <label for="file">choose file</label>
+          <input type="file" name="" id="" />
+          <label for="img">image</label>
+          <input type="image" name="images" />
+          <br />
+        </div>
+      </form>
+
+      <br />
+      <form action="">
+        <label for="phone">enter the mobile number</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+        <input type="text" name="" id="">
+        <input type="text">
+        <input type="reset" name="" id="">
+      </form>
+    </div>
+  </body>
+</html>

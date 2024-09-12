@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas  id="mycanvas"  width="250px" height="250px" style="border: 1px solid black; background-color: bisque;"></canvas>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+    <script>
+        var x=document.getElementById('mycanvas');
+        var ctx=x.getContext("2d");
+         ctx.moveTo(0, 0);
+        ctx.lineTo(200,300);
+        ctx.stroke();
+    </script>
+<svg width="400" height="120">
+    <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue" />
+  </svg>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+table,th,td{
+    border: 1px solid BLACK;
+}
+.container table,th,td{
+    border: 1px solid BLACK;
+    border-collapse: collapse;
+}
+/* td{
+    background-color: yellow;
+} */
+
+ /* .container tr:nth-child(even){
+    background-color: aqua;
+}
+
+td:nth-child(odd){
+    background-color: orange;
+} */
